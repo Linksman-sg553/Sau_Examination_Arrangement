@@ -1,5 +1,4 @@
 # -*- coding: UTF-8 -*-
-# 四个人三个废物，设计、编码、测试、报告全是我一个人，受不了了
 import excel2Mysql
 import Room
 import DBcon
