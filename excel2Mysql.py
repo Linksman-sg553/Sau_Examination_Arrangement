@@ -18,7 +18,7 @@ def excel2Sql(database: str, exc_Student: str, exc_Teacher: str, exc_Course: str
               exc_schedule_early: str, exc_schedule_middle: str, exc_schedule_end: str,
               exc_Room: str, exc_Option: str):
     # 写死登陆信息
-    con = DBcon.getConnection('localhost', 'root', 'gefu1128', database, 'utf8')
+    con = DBcon.getConnection('localhost', 'root', '', database, 'utf8')
     # 数据库查询游标
     cursor = con.cursor()
     student2Sql(exc_Student, cursor, 'book_student')
